@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MC Think-a-Thon 2024</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="logo.png">
+</head>
+<body>
+  <header class="header">
+    <img src="logo.png" alt="Mentor College Logo" class="logo">
+    <h1 class="title">
+      Mentor College <span>Think-a-Thon 2024!</span>
+    </h1>
+  </header>
+
+  <main>
+    <div class="video-container">
+      <iframe
+        class="video"
+        src="https://youtube.com/embed/4gdAWZVYCBc"
+        title="Hackathon Promo Video"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <p class="description">
+      Join us for an exciting journey of innovation and creativity at the Mentor College Think-a-Thon 2024! Sign up below and be a part of the future.
+    </p>
+
+    <div class="signup">
+      <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=-Ja5xAht00GGC3rbohYcd0VHt4zm5yVFkvTqWhXcaHZUMjlRTEpLSkU3MUg0NDNTR1RETFIwQkg3RC4u" target="_blank" class="signup-link">
+        Access the Sign-Up Form
+      </a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <button onclick="copyLink()" class="copy-link">Copy Link to Share!</button>
+  </footer>
+
+  <script>
+    function copyLink() {
+      const shareableLink = "https://your-hackathon-event-site.com";
+      navigator.clipboard.writeText(shareableLink);
+      alert("Link copied to clipboard!");
+    }
+  </script>
+</body>
+</html>
